@@ -13,6 +13,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'react-rails'
 gem 'showdown-rails'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-marked'
+end
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'autoprefixer-rails'
 
 
 group :development, :test do
